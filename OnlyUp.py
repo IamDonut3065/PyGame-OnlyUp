@@ -229,7 +229,7 @@ while True:
             exit()
         if game_active:
             if event.type == pygame.KEYDOWN and (event.key == pygame.K_SPACE or event.key == pygame.K_UP or event.key == pygame.K_w) and jump_count < max_jumps:
-                player_gravity = -22.5
+                player_gravity = -23.5
                 jump_count += 1
                 if jump_count == 1: 
                     jump_sound.play()  # Spiele den Sprungsound ab
